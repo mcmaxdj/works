@@ -1,0 +1,139 @@
+body {
+    background: #6185AB;
+    color: #fff;
+    font-size: 13px;
+    font-family: Arial;
+}
+a {
+    color:#fff;
+}
+
+#container {
+    /*position: absolute;*/
+    /*left: 10px;*/
+    /*top: 10px;*/
+    /*right: 10px;*/
+    /*bottom: 10px;*/
+    padding:10px;
+}
+
+/*#container > div, #container > video {*/
+    /*position: absolute;*/
+/*}*/
+
+#title {
+    /*top: 0;*/
+    /*left: 0;*/
+}
+.text {
+    margin-top: 6px;
+    font-weight: bold;
+}
+#browsers {
+    /*left: 0;*/
+    /*bottom: 0;*/
+    font-size: 11px;
+    margin-top: 6px;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+video {
+    background-color: #000;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.video.full {
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin:0!important;
+    z-index: 99;
+}
+.video > i {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 4px;
+    cursor: pointer;
+    display: none;
+    -webkit-filter: drop-shadow(0px 0px 2px #ffffff);
+    filter: url(/css/filter.svg#drop-shadow);
+    filter: drop-shadow(0px 0px 2px #ffffff);
+}
+.video:hover > i {
+    display: block;
+}
+
+.video > i.sound {
+    left: 50%;
+    margin-left: -16px;
+    background:transparent url(../i/sound.png) 0 0 no-repeat;
+}
+.video.off > i.sound {
+    display: block;
+    background-image: url(../i/sound_mute.png);
+}
+
+.video > i.mic {
+    left: 50%;
+    margin-left: -34px;
+    background:transparent url(../i/mic.png) 0 0 no-repeat;
+}
+.video.mic_off > i.mic {
+    display: block;
+    background-image: url(../i/mic_mute.png);
+}
+.video > i.vid {
+    left: 50%;
+    margin-left: 2px;
+    background:transparent url(../i/vid.png) 0 0 no-repeat;
+}
+.video.vid_off > i.vid {
+    display: block;
+    background-image: url(../i/vid_mute.png);
+}
+
+#users {
+    /*left: 0;*/
+    /*top: 40px;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*overflow-x: hidden;*/
+    /*overflow-y: auto;*/
+    margin-top: 6px;
+}
+#users > .video {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 10px 0;
+    position: relative;
+    width: 320px;
+    height: 240px;
+}
+#users > .video.full {
+    position: absolute;
+}
+
+#me {
+    right: 16px;
+    bottom: 16px;
+    width: 160px;
+    height: 120px;
+    position:fixed;
+    z-index: 100;
+}
+
+button {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 100%;
+}

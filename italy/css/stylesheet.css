@@ -1,0 +1,1810 @@
+/***************************
+Reset Styles
+***************************/
+@import 'normalize.css';
+/* Change all elements to use border-box */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/***************************
+Base Styles
+***************************/
+body {
+    font-family: "CenturyGothicRegular";
+    font-weight: normal;
+    color: #fff;
+}
+/*h1, h2, h3 {
+    font-weight: bold;
+}*/
+/*a {
+    color: #8dc63f;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}*/
+/***************************
+Layout Styles
+***************************/
+
+/*section > .top-section styles*/
+.top-section{
+    background-color: #000;
+    background-image: url(bg/girl_ass.png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 608px;
+}
+.top-section-second{
+    position: absolute;
+    left: 50%;
+    margin-left: -316px;
+    top: 0;
+}
+.top-section-first{
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    margin-left: -81px;
+}
+.top-section-sale{
+    position: absolute;
+    left: 50%;
+    margin-left: -42px;
+    top: 281px;
+    display: none;
+}
+.text-sale-block{
+    position: absolute;
+    left: 74%;
+    top: 70px;
+}
+.text-sale{
+    color: #fff;
+    font-size: 4.5em;
+    margin: 0 auto;
+    margin-left: -97px;
+}
+.text-sale2{
+    color: #c8c8c8;
+    margin-left: -97px;
+    margin-top: 15px;
+    font-size: 1.54em;
+}
+.text-sale3{
+    color: #fce609;
+    margin-left: -97px;
+    margin-top: -30px;
+    font-size: 2.5em;
+}
+/*COUNTDOUN STYLE*/
+.clock {
+    position: absolute;
+    left: 74%;
+    margin-left: -99px;
+    top: 16em; 
+  }
+.clock_present {
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.3em;
+    margin: 10px 0 20px; 
+  }
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px; 
+  }
+#clockdiv > div {
+    padding: 5px;
+    -webkit-border-radius: 3px;
+          border-radius: 3px;
+    background: rgba(0, 191, 150, 0.1);
+    display: inline-block; 
+}
+#clockdiv div > span {
+    padding: 15px;
+    -webkit-border-radius: 3px;
+          border-radius: 3px;
+    background: rgba(43, 37, 35, 0.3);
+    display: inline-block; 
+}
+.smalltext {
+    padding-top: 5px;
+    font-size: 16px; 
+}
+.top-section-button{
+    position: absolute;
+    left: 50%;
+    margin-left: -207.5px;
+    top: 460px;
+}
+  /*end section > .top-section styles*/
+  /*section-2 > .top-section styles*/
+.section-2{
+    background-image: url(bg/rectangle_2.png);
+    background-position: center top -9%;
+    background-repeat: no-repeat;
+    background-color: #06050c;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 620px;
+}
+.section-2-text-up{
+    position: absolute;
+    left: 4%;
+    top: 7%;
+}
+.text-why{
+    font-size: 2.25em;
+}
+.section-2-text-up p{
+    font-size: 1.25em;
+    line-height: 1;
+    color: #c8c8c8;
+}
+.section-2-img{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    margin-left: -442px;
+    max-width: 100%;
+    opacity: .4;
+  }
+.section-2-text-bottom{
+    position: absolute;
+    top: 463px;
+    left: 3%;
+    letter-spacing: 2px;
+    color: #c8c8c8;
+}
+.section-2-text-bottom b{
+    color: #fff;
+    font-weight: 700;
+}
+    /*end section-2 styles*/
+    /*section-3 styles*/
+.section-3{
+    position: relative;
+    background-color: #06050c;
+}
+.section-3 img.red-man{
+    width: 504px;
+    opacity: .3;
+}
+.section-3-text{
+    color: #ecd90b;
+    font-size: 1.75em;
+    position: absolute;
+    left: 47%;
+    bottom: 70px;
+    line-height: 0.5;
+}
+        /*end section-3 styles*/
+        /*section-4 styles*/
+.section-4{
+    background-color: #050a10;
+    position: relative;
+    padding-top: 40px;
+    height: 850px;
+}
+.section-4-h3 h3{
+    font-size: 2.25em;
+    line-height: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-4-text p{
+    letter-spacing: 1px;
+    padding-left: 15px;
+}
+.botle2{
+    position: absolute;
+    left: 50%;
+    top: 230px;
+    margin-left: -117px;
+    z-index: 2;
+}
+/*section-4 sections advantage*/
+.section-4 h5{
+    color: #686f1a;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-top: 40px;
+}
+.section-4 h6{
+    font-size: 0.875em;
+    color: #c8c8c8;
+    display: inline-flex;
+    margin-top: 5px;
+}
+.kodriceps, .vitamin, .biancospino{
+    float: right;
+}
+.section-4-1{
+    position: absolute;
+    left: 10px;
+    width: 300px;
+}
+.section-4-2{
+    position: absolute;
+    right: 0;
+    width: 271px;
+}
+.section-4-2 h6{
+    text-align: right;
+    padding-right: 5px;
+}
+.section-4-3{
+    position: absolute;
+    left: 10px;
+    width: 280px;
+    top: 379px;
+}
+.section-4-3 .katuaba-text-one{
+    padding-top: 0;
+    color: #c8c8c8;
+}
+.section-4-4{
+    position: absolute;
+    right: 0;
+    width: 270px;
+    top: 379px;
+    padding-right: 5px;
+}
+.section-4-4 h6{
+    text-align: right;
+}
+.section-4-5{
+    position: absolute;
+    left: 10px;
+    width: 383px;
+    top: 600px;
+}
+.section-4-5 .peruanskaya-text-one{
+    padding-top: 0;
+    color: #c8c8c8;
+}
+.section-4-6{
+    position: absolute;
+    right: 0;
+    width: 300px;
+    top: 600px;
+    padding-right: 5px;
+}
+.section-4-6 h6{
+    text-align: right;
+}
+img.rectangle30{
+    position: absolute;
+    max-width: 70%;
+    top: 431px;
+    left: 14%;
+}
+img.rectangle29{
+    position: absolute;
+    top: 218px;
+    left: 49%;
+}
+img.rectangle28{
+    position: absolute;
+    top: 218px;
+    left: 24%;
+}
+img.rectangle31{
+    position: absolute;
+    top: 534px;
+    left: 19%;
+}
+img.rectangle32{
+    position: absolute;
+    top: 438px;
+    left: 39%;
+    max-width: 45%;
+}
+        /*end section-4 styles*/
+        /*section-5 styles*/
+.section-5{
+    position: relative;
+    height: 152px;
+    background-color: #221c38;
+    border-top: 2px solid #ffff00;
+    border-bottom: 2px solid #ffff00;
+}
+.section-5-text-up h5{
+    margin: 0 auto;
+}
+.section-5-text-up{
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    letter-spacing: 4px;
+    font-size: 1.125em;
+}
+.section-5-text-up strong{
+    color: #fce609;
+}
+.section-5-text-up dfn{
+    font-size: 1.875em;
+    color: #ffff00;
+}
+.section-5-text-up ins{
+    color: #df9a2b;
+    text-decoration: none;
+}
+.section-5-smalltext{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    letter-spacing: 1px;
+}
+.section-5-smalltext ins{
+    color: #df9a2b;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.section-5-button{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+}
+        /*end section-5 styles*/
+        /*section-6 styles*/
+.section-6{
+    position: relative;
+    background-color: #0b0a0e;
+    height: 565px;
+}
+.section-6 h6{
+    font-size: 1.13em;
+    margin: 0;
+}
+.vertical-text{
+    position: absolute;
+    transform: rotate(-90deg);
+    color: #fce608;
+    left: -40px;
+    top: 170px;
+}
+.horizontal-text{
+    position: absolute;
+    color: #fce608;
+    top: 435px;
+    left: 390px;
+}
+.rectangle{
+    position: absolute;
+    top: 105px;
+    left: 45px;
+}
+.graphic{
+    position: absolute;
+    top: 107px;
+    left: 42px;
+}
+.section-6 .text-block{
+    position: absolute;
+    left: 46%;
+    margin-right: 10px;
+}
+.text-block h5{
+    font-size: 2.25em;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.text-block p{
+    letter-spacing: 1px;
+    font-size: 1.125em;
+    color: #f6f6d2;
+    line-height: 1.8; 
+}
+        /*end section-6 styles*/
+        /*section-7 styles*/
+.section-7{
+    display: flex;
+    height: 490px;
+    background: -webkit-linear-gradient(bottom, #18242f, #050709);
+    background: -o-linear-gradient(bottom, #18242f, #050709);
+    background: linear-gradient(to bottom, #18242f, #050709);
+}
+img.doctor{
+    height: 35%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.section-7 .text-block-2{
+    margin-left: 20px;
+    margin-right: 14px;
+}
+.text-block-2 span{
+    color: #bcbcbc;
+}
+.text-block-2 h4{
+    font-size: 2.0625em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-block-2 p{
+    line-height: 1.5;
+    color: #f9efcd;
+    letter-spacing: 1px;
+}
+.text-block-2 ins{
+    color: #baab75;
+    text-decoration: none;
+}
+.text-block-2 b{
+    color: #f9efcd;
+}
+        /*end section-7 styles*/
+        /*section-8 styles*/
+.section-8{
+    position: relative;
+    background-image: url(bg/sex2.png);
+    background-color: #010202;
+    background-repeat: no-repeat;
+    background-position: top right;
+    /*height: 515px;*/
+}
+.text-block-3 h5{
+    position: relative;
+    font-size: 2.25em;
+    margin-left: 15px;
+    margin-top: 0;
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+.text-block-3 p{
+    font-size: 1.125em;
+    color: #feffbe;
+    letter-spacing: 2px;
+    line-height: 2;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+        /*end section-8 styles*/
+        /*section-9 styles*/
+.section-9{
+    position: relative;
+    height: 152px;
+    background-color: #221c38;
+    border-top: 2px solid #ffff00;
+    border-bottom: 2px solid #ffff00;
+}
+.section-9-text-up h5{
+    margin: 0 auto;
+}
+.section-9-text-up{
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    letter-spacing: 4px;
+    font-size: 1.125em;
+}
+.section-9-text-up strong{
+    color: #fce609;
+}
+.section-9-text-up dfn{
+    font-size: 1.875em;
+    color: #ffff00;
+}
+.section-9-text-up ins{
+    color: #df9a2b;
+    text-decoration: none;
+}
+.section-9-smalltext{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    letter-spacing: 1px;
+}
+.section-9-smalltext ins{
+    color: #df9a2b;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.section-9-button{
+    position: absolute;
+    left: 50%;
+    top: 32%;
+}
+        /*end section-9 styles*/
+        /*section-10 styles*/
+.section-10{
+    position: relative;
+    background-color: #050a10;
+}
+.comments h3{
+    margin-top: 0;
+    font-size: 2.25em;
+    padding-top: 50px;
+    margin-left: 140px;
+    margin-bottom: 0;
+}
+.comments p{
+    color: #b8b8b8;
+    font-size: 1.125em;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.comment-1{
+    display: inline-flex;
+    background-color: #000;
+}
+.comment-1 h5{
+    position: absolute;
+    font-size: 1em;
+    letter-spacing: 1px;
+    left: 250px;
+}
+.comment-1 p{
+    margin-left: 10px;
+    margin-top: 70px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+    font-size: 0.875em;
+    line-height: 1.5; 
+}
+.comment-2{
+    display: inline-flex;
+    background-color: #000;
+    margin-top: 20px;
+}
+.comment-2 h5{
+    position: absolute;
+    font-size: 1em;
+    letter-spacing: 1px;
+    left: 250px;
+}
+.comment-2 p{
+    margin-left: 10px;
+    margin-top: 70px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+    font-size: 0.875em;
+    line-height: 1.5; 
+}
+.comment-3{
+    display: inline-flex;
+    background-color: #000;
+    margin-top: 20px;
+}
+.comment-3 h5{
+    position: absolute;
+    font-size: 1em;
+    letter-spacing: 1px;
+    left: 250px;
+}
+.comment-3 p{
+    margin-left: 10px;
+    margin-top: 70px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    color: #bdbdbd;
+    font-size: 0.875em;
+    line-height: 1.5; 
+}
+        /*end section-10 styles*/
+        /*section-11 styles*/
+.section-11{
+    background-image: url(bg/girlandman.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-color: #000;
+    height: 842px;
+}
+.darkrectangle img{
+    position: absolute;
+    top: 320px;
+    width: 100%;
+    height: 62.5%;
+}
+.section-11-text-up{
+    position: absolute;
+    top: 45px;
+    left: 60%;
+    letter-spacing: 1px;
+}
+.section-11-text-up h4{
+    font-size: 1.875em;
+    margin-bottom: 0;
+}
+.section-11-text-up h3{
+    font-size: 2.875em;
+    color: #fce609;
+    margin-top: 0;
+}
+.section-11-text-left{
+    position: absolute;
+    top: 400px;
+    left: 15px;
+    letter-spacing: 1px;
+}
+.section-11-text-left h2{
+    font-size: 1.875em;
+    color: #fce609;
+}
+.section-11-text-left h5{
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.section-11-text-left ins{
+    color: #ffb027;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.section-11-text-left h6{
+    font-size: 0.85em;
+    margin-bottom: 0;
+}
+
+
+/*contactformstyle*/
+.section-11-contact{
+    position: absolute;
+    left: 84%;
+    top: 34%;
+    margin-left: -200px;
+}
+.section-11-contact p{
+    color: #fce609;
+    font-size: 3em;
+    margin-left: 35px;
+}
+#contactform{
+    position: absolute;
+    top: 135px;
+}
+.field1 {
+    display: inline-flex;
+    margin-left: -112px;
+    margin-bottom: 35px;
+}
+.field1 label {
+  font-size: 22px;
+  color: #FFF;
+  margin-left: 50px;
+  line-height: 1;
+  letter-spacing: 0; 
+}
+.field1 input {
+  border-width: 3px;
+  border-color: #ffff00;
+  border-style: solid;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: inset 0 0 30.45px 4.55px rgba(0, 0, 0, 0.75);
+          box-shadow: inset 0 0 30.45px 4.55px rgba(0, 0, 0, 0.75);
+  z-index: 16;
+  font-size: 28px;
+  padding-left: 12px; }
+
+.field2 {
+    display: inline-flex;
+    margin-left: -27px;
+    margin-bottom: 35px;
+}
+.field2 label {
+  font-size: 22px;
+  color: #FFF;
+  line-height: 2;
+  letter-spacing: 1px; 
+}
+.field2 input {
+  border-width: 3px;
+  border-color: #ffff00;
+  border-style: solid;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: inset 0 0 30.45px 4.55px rgba(0, 0, 0, 0.75);
+          box-shadow: inset 0 0 30.45px 4.55px rgba(0, 0, 0, 0.75);
+  font-size: 28px;
+  padding-left: 12px; 
+}
+.field3 {
+  display: inline-flex;
+  margin-left: -56px; 
+}
+.field3 label {
+  font-size: 22px;
+  color: #FFF;
+  line-height: 2;
+  letter-spacing: 1px; 
+}
+.field3 input {
+  border-width: 3px;
+  border-color: #ffff00;
+  border-style: solid;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  background-color: white;
+  -webkit-box-shadow: inset 0 0 30.45px 4.55px rgba(0, 0, 0, 0.75);
+          box-shadow: inset 0 0 30.45px 4.55px rgba(0, 0, 0, 0.75);
+  font-size: 28px;
+  padding-left: 12px; 
+}
+.vertical-line{
+    position: absolute;
+    padding-top: 325px;
+    left: 50%;
+}
+.section-11-button{
+    position: absolute;
+    top: 735px;
+    left: 50%;
+    margin-left: -218.5px;
+}
+.copyright{
+    background-color: #0b0e11;
+    top: 841px;
+    width: 100%; 
+    position: absolute;
+    letter-spacing: 2px;
+}
+.copyright h5{
+    font-size: 1.55em;
+    text-align: center;
+}
+.privacy{
+    position: absolute;
+    bottom: 20px;
+    left: 38%;
+}
+.privacy a{
+    text-decoration: none;
+    color: #bdbdbd;
+}
+
+/* Media Query excludes extra small devices and includes small and above */
+
+/*-------------------1280 and 1365-----------------------*/
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px){
+    .section-2{background-position: center top -6%;
+    }
+    .section-3-text{letter-spacing: 2px; font-size: 2em; left: 43%; bottom: 40px; line-height: 1;
+    }
+    .section-2-text-up{letter-spacing: 2px;
+    }
+    .section-2-text-bottom{font-size: 1em;
+    }
+    img.rectangle29{
+        left: 55%;
+        top: 201px;
+    }
+    img.rectangle28{
+        left: 24%;
+        top: 201px;
+    }
+    img.rectangle32{
+        left: 47%;
+        top: 426px;
+    }
+    .section-5-text-up{
+        font-size: 1.5em;
+    }
+    .section-5-smalltext{
+        top: 65px;
+    }
+    .section-5-button{
+        left: 62%;
+    }
+    img.doctor{
+        height: 50%;
+    }
+    .text-block-2 p{
+        font-size: 1.125em;
+    }
+    .text-block-3{
+        width: 70%;
+    }
+     .section-9-text-up{
+        font-size: 1.5em;
+    }
+    .section-9-smalltext{
+        top: 65px;
+    }
+    .section-9-button{
+        left: 62%;
+    }
+    .comments{
+        padding-left: 8%;
+    }
+    .comment-1 p{
+        font-size: 1em;
+    }
+    .comment-2 p{
+        font-size: 1em;
+    }
+    .comment-3 p{
+        font-size: 1em;
+    }
+    .comment-1 h5{
+        font-size: 1.125em;
+    }
+    .comment-2 h5{
+        font-size: 1.125em;
+    }
+    .comment-3 h5{
+        font-size: 1.125em;
+    }
+    .section-11-text-up{
+        letter-spacing: 5px;
+    }
+    .section-11-text-left h2{
+        font-size: 2em;
+    }
+    .section-11-text-left h5{
+        font-size: 1.125em;
+    }
+    .section-11-text-left h6{
+        font-size: 1.1em;
+    }
+}
+
+/*---------------min-device-width 1920px---------------*/
+
+@media only screen and (min-width: 1920px){
+    .top-section{
+        background-position: top left 260px;
+    }
+    .text-sale{
+        font-size: 5.5em;
+    }
+    .text-sale2{
+        font-size: 2em;
+    }
+    .text-sale3{
+        font-size: 3em;
+    }
+    .clock{
+        top: 20em;
+    }
+    .clock_present{
+        font-size: 1.5em;
+    }
+    #clockdiv > div{
+        padding: 12px;
+    }
+    .section-2-text-up{
+        left: 220px;
+        top: 0;
+    }
+    .text-why{
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    .section-2-text-up p{
+        font-size: 1.875em;
+    }
+    .section-2-text-bottom{
+        top: 465px;
+        left: 110px;
+        font-size: 1.5em;
+    }
+    .section-2{
+        height: 700px;
+    }
+    .section-3 img.red-man{
+        width: 704px;
+    }
+    .section-3-text{
+        font-size: 3em;
+        left: 47%;
+        top: 70px;
+    }
+    .section-4-text p{
+        font-size: 1.5em;
+        padding-left: 200px;
+        padding-right: 200px; 
+    }
+    .section-4-1{
+        left: 240px;
+    }
+    .section-4-3{
+        left: 240px;
+    }
+    .section-4-5{
+        left: 240px;
+    }
+    .section-4-2{
+        right: 240px;
+    }
+    .section-4-4{
+        right: 240px;
+    }
+    .section-4-6{
+        right: 240px;
+    }
+    img.rectangle30{
+        width: 62%;
+        top: 430px;
+        left: 18%;
+    }
+    img.rectangle29{
+        left: 55%;
+        top: 230px;
+    }
+    img.rectangle28{
+        left: 32%;
+        top: 230px;
+    }
+    img.rectangle31{
+        top: 535px;
+        left: 26%;
+    }
+    img.rectangle32{
+        top: 426px;
+        left: 51%;
+    }
+    .section-5-text-up{
+        left: 240px;
+        font-size: 1.75em;
+        top: 10px;
+    }
+    .section-5-smalltext{
+        left: 240px;
+        top: 85px;
+    }
+    .section-5-button{
+        left: 66%;
+        top: 39%;
+    }
+    .rectangle{
+        left: 240px;
+    }
+    .graphic{
+        left: 238px;
+    }
+    .vertical-text{
+        left: 105px;
+        font-size: 1.75em;
+        top: 210px;
+    }
+    .horizontal-text{
+        left: 530px;
+        font-size: 1.75em;
+    }
+    .section-6 .text-block{
+        left: 40%;
+        width: 800px;
+    }
+    img.doctor{
+        margin-top: 100px;
+        margin-left: 220px;
+        height: 50%;
+    }
+    .section-7 .text-block-2{
+        width: 1120px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .text-block-2 h4{
+        font-size: 2.25em;
+        letter-spacing: 2px;
+    }
+    .text-block-3 h5{
+        margin-left: 170px;
+    }
+    .text-block-3 p{
+        margin-left: 170px;
+        font-size: 1.5em;
+        width: 1200px;
+        line-height: 1.7;
+    }
+    .section-9-text-up{
+        left: 240px;
+        font-size: 1.75em;
+        top: 10px;
+    }
+    .section-9-smalltext{
+        left: 240px;
+        top: 85px;
+    }
+    .section-9-button{
+        left: 66%;
+        top: 39%;
+    }
+    .comments h3{
+        font-size: 3em;
+        margin-left: 340px;
+    }
+    .comments p{
+        font-size: 1.5em;
+        margin-left: 340px;
+    }
+    .comment-1{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .comment-2{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .comment-3{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .comment-1 p{
+        font-size: 1.3em;
+    }
+    .comment-2 p{
+        font-size: 1.3em;
+    }
+    .comment-3 p{
+        font-size: 1.3em;
+    }
+    .comment-1 h5{
+        font-size: 1.5em;
+        left: 332px;
+        top: 155px;
+    }
+    .comment-2 h5{
+        font-size: 1.5em;
+        left: 332px;
+        top: 420px;
+    }
+    .comment-3 h5{
+        font-size: 1.5em;
+        left: 332px;
+        top: 685px;
+    }
+    .section-11{
+        background-size: 100%;
+        height: 1150px;
+    }
+    .darkrectangle img{
+        top: 425px;
+        height: 72%;
+    }
+    .vertical-line{
+        top: 190px;
+    }
+    .section-11-text-left h2{
+        font-size: 3em;
+    }
+    .section-11-text-left{
+        left: 95px;
+        top: 500px;
+    }
+    .section-11-text-left h5{
+        font-size: 1.75em;
+    }
+    .section-11-text-left h6{
+        font-size: 1.55em;
+    }
+    .section-11-text-left small{
+        font-size: 1em;
+    }
+    .field1 label{
+        font-size: 3em;
+    }
+    .field2 label{
+        font-size: 3em;
+    }
+    .field3 label{
+        font-size: 3em;
+    }
+    .field1 input{
+        font-size: 50px;
+    }
+    .field2 input{
+        font-size: 50px;
+    }
+    .field3 input{
+        font-size: 50px;
+    }
+    .field1{
+        margin-left: -450px;
+    }
+    .field2{
+        margin-left: -318px;
+    }
+    .field3{
+        margin-left: -380px;
+    }
+    .section-11-text-up h4{
+        font-size: 3.25em;
+    }
+    .section-11-text-up h3{
+        font-size: 4.8125em;
+    }
+    .section-11-button{
+        top: 1030px;
+    }
+    .section-11-contact{
+        top: 35%;
+    }
+    .copyright{
+        top: 1149px;
+    }
+    .privacy{
+        left: 43%;
+    }
+}
+
+/*---------------------1366 and 1919------------------------------*/
+
+@media only screen and (min-width: 1366px) and (max-width: 1919px){
+    img.rectangle30{
+        position: absolute;
+        top: 430px;
+        left: 14%;
+    }
+    img.rectangle28{
+        left: 25%;
+        top: 201px;
+    }
+    img.rectangle29{
+        left: 55%;
+        top: 201px;
+    }
+    img.rectangle31{
+        top: 536px;
+    }
+    img.rectangle32{
+        top: 426px;
+        left: 48%;
+    }
+    .section-4-text p{
+        padding-left: 170px;
+        padding-right: 169px;
+    }
+    .section-4-1{
+        left: 5%;
+    }
+    .section-4-2{
+        right: 5%;
+    }
+    .section-4-3{
+        left: 5%;
+    }
+    .section-4-4{
+        right: 5%;
+    }
+    .section-4-5{
+        left: 5%;
+    }
+    .section-4-6{
+        right: 5%;    
+    }
+    .section-11{
+        background-size: 100%;
+    }
+    .privacy{
+        left: 41%;
+    }
+    .section-11-text-left{
+        left: 12%;
+    }
+    .section-11-contact{
+        left: 73%;
+    }
+}
+
+/*--------------------------640 and 1023---------------------------*/
+
+@media only screen and (min-width: 640px) and (max-width: 1023px){
+    .botle2,img.rectangle30,img.rectangle28,img.rectangle29,img.rectangle31,img.rectangle32,.vertical-line,.flash{
+        display: none;
+    }
+    .top-section{
+        background-image: url(bg/flash_bg640.png);
+        background-repeat: no-repeat;
+        background-position: top left -50px;
+        height: 470px;
+    }
+    .top-section-first{
+        left: 50%;
+        top: 15px;
+        margin-left: -81px;
+        z-index: 1;
+    }
+    .top-section-sale{
+        left: 25%;
+        top: 217px;
+        z-index: 1;
+    }
+    .text-sale-block{
+        left: 50%;
+        top: 55px;
+        z-index: 2;
+    }
+    .clock{
+        left: 50%;
+        top: 15em;
+        margin-left: -142px;
+        z-index: 2;
+    }
+    #clockdiv{
+        font-weight: 300;
+    }
+    #clockdiv div > span{
+        padding: 10px;
+    }
+    .clock_present{
+        font-size: 1.125em;
+    }
+    .text-sale{
+        margin-left: -434px;
+        background-color: rgba(0,0,0,.5);
+        padding-left: 282px;
+    }
+    .top-section-button a img{
+        width: 75%;
+    }
+    .top-section-button{
+        margin-left: -156px;
+        top: 395px;
+    }
+    .section-2{
+        background-position: center top -21%;
+        height: 570px;
+    }
+    .section-2-img{
+        opacity: .2;
+    }
+    .text-why{
+        font-size: 1.5em;
+    }
+    .section-2-text-up p{
+        font-size: 1em;
+    }
+    .section-2-text-bottom{
+        font-size: 1em;
+        top: 325px;
+    }
+    .section-3 img.red-man{
+        width: 265px;
+        opacity: .3;
+    }
+    .section-3-text{
+        font-size: 1.5em;
+        bottom: 15px;
+        left: 25%;
+    }
+    .section-4{
+        height: 725px;
+    }
+    .section-4-h3 h3{
+        font-size: 1.5em;
+    }
+    .section-4-h3 h3{
+        font-size: 1.125em;
+    }
+    .section-4 h5{
+        font-size: 1.125em;
+    }
+    .section-4-2,.section-4-4,.section-4-6{
+        right: 10px;
+    }
+    .section-4-2,.section-4-4,.section-4-6,.section-4-1,.section-4-3,.section-4-5{
+        width: 300px;
+    }
+    .section-4-4,.section-4-3{
+        top: 360px;
+    }
+    .section-4-5,.section-4-6{
+        top: 520px;
+    }
+    .kodriceps, .vitamin, .biancospino{
+        float: left;
+    }
+    .section-4-4 h6,.section-4-2 h6,.section-4-6 h6{
+        text-align: left;
+    }
+    .section-5-button{
+        top: 50%;
+        margin-left: -160px;
+    }
+    .section-5-button a img{
+        width: 75%;
+    }
+    .section-5-text-up{
+        font-size: 1.75em;
+        line-height: 1;
+    }
+    .section-5-text-up dfn{
+        font-size: 1em;
+    }
+    .section-5-smalltext{
+        top: 55px;
+    }
+    .vertical-text,.horizontal-text,.rectangle,.graphic,.section-11-contact p{
+        display: none;
+    }
+    .section-6 .text-block{
+        left: 5%;
+    }
+    img.doctor{
+        height: 20%;
+        margin-left: 30px;
+    }
+    .text-block-2 h4{
+        font-size: 1.5em;
+        margin-top: 25px;
+        width: 55%;
+    }
+    .text-block-2 p{
+        font-size: 1em;
+        margin-top: 7%;
+        letter-spacing: 0;
+    }
+    .text-block-3 h5{
+        font-size: 1.5em;
+        width: 72%;
+    }
+    .text-block-3 p{
+        font-size: 1em;
+        line-height: 1.5;
+        width: 412px;
+    }
+    .section-8{
+        height: 465px;
+    }
+    .section-9-button{
+        top: 50%;
+        margin-left: -160px;
+    }
+    .section-9-button a img{
+        width: 75%;
+    }
+    .section-9-text-up{
+        font-size: 1.6em;
+        line-height: 1;
+    }
+    .section-9-text-up dfn{
+        font-size: 1em;
+    }
+    .section-9-smalltext{
+        top: 55px;
+    }
+    .comments h3{
+        padding-top: 15px;
+        font-size: 1.875em;
+        margin-left: 15px;
+    }
+    .comments p{
+        font-size: 0.755em;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+    .comment-1,.comment-2,.comment-3{
+        margin-left: 15px;
+    }
+    .client1,.client2,.client3{
+        width: 15%;
+        height: 15%;
+    }
+    .comment-1 p,.comment-2 p,.comment-3 p{
+        font-size: 0.75em;
+        margin-top: 20px;
+    }
+    .comment-1 h5,.comment-2 h5,.comment-3 h5{
+        font-size: 0.75em;
+        left: 175px;
+        margin: 0;
+    }
+    .section-11-text-up{
+        left: 13%;
+        top: -4%;
+        z-index: 1;
+    }
+    .section-11-text-up h4{
+        font-size: 2.5em;
+    }
+    .section-11-text-up h3{
+        font-size: 3.875em;
+        margin: 0;
+    }
+    .section-11-text-left h2{
+        font-size: 2.25em;
+        margin: 0;
+    }
+    .section-11-text-left{
+        top: 140px;
+        margin: 0;
+        left: 88px;
+    }
+    .section-11-text-left h5{
+        margin: 0;
+        font-size: 2.0625em;
+    }
+    .section-11 small{
+        font-size: 90%;
+    }
+    .section-11-text-left h6{
+        font-size: 1.875em;
+        margin: 0;
+    }
+    .section-11-contact{
+        left: 50%;
+        margin-left: 0;
+    }
+    #contactform{
+        top: 164px;
+        left: -150px;
+    }
+    .darkrectangle img{
+        top: 410px;
+        box-shadow: 0 -410px 10px 5px rgba(0, 0, 0, .6);
+    }
+    .section-11-button{
+        top: 88%;
+        margin-left: -160px;
+    }
+    .section-11-button a img{
+        width: 75%;
+    }
+    .copyright{
+        box-shadow: 0 -20px 10px 5px rgba(0, 0, 0, .5);
+    }
+    .privacy{
+        left: 50%;
+        margin-left: -112px;
+    }
+}
+
+/*-----------------------320-639-------------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 639px){
+    .top-section{
+        background-image: url(bg/flash_bg640.png);
+        background-repeat: no-repeat;
+        height: 495px;
+    }
+    .botle2,img.rectangle30,img.rectangle28,img.rectangle29,img.rectangle31,img.rectangle32,.vertical-line,.flash,.vertical-text,.horizontal-text,.graphic,.rectangle,.top-section-sale{
+        display: none;
+    }
+    .top-section-first{
+        top: 15px;
+    }
+    .clock{
+        left: 50%;
+        margin-left: -155px;
+        top: 14em;
+    }
+    .clock_present{
+        font-size: 1.2em;
+        margin-left: 5px;
+    }
+    .text-sale-block{
+        left: 50%;
+        margin-left: -150px;
+        top: 60px;
+    }
+    .text-sale{
+        margin-left: 15px;
+        font-size: 4em;
+    }
+    .text-sale2{
+        margin-left: 15px;
+        font-size: 1.3em;
+    }
+    .text-sale3{
+        margin-left: 15px;
+        font-size: 1.875em;
+    }
+    .top-section-button{
+        left: 50%;
+        margin-left: -160px;
+        top: 380px;
+    }
+    .top-section-button a img{
+        width: 100%;
+    }
+    .section-5-button a img{
+        width: 100%;
+    }
+    .section-9-button a img{
+        width: 100%;
+    }
+    .section-3 img.red-man{
+        width: 210px;
+        opacity: .3;
+    }
+    .section-2-img img{
+        width: 100%;
+        opacity: .3;
+    }
+    .section-2-img{
+        left: 50%;
+        margin-left: 0;
+    }
+    .section-2-text-up{
+        top: 0;
+        left: 0;
+        position: relative;
+        z-index: 1;
+    }
+    .text-why{
+        font-size: 1.441em;
+        text-align: center;
+        margin: 0;
+    }
+    .section-2-text-up p{
+        font-size: 1em;
+    }
+    .section-2-text-bottom{
+        font-size: 0.75em;
+        top: 340px;
+    }
+    .section-3-text{
+        font-size: 1em;
+        bottom: 15px;
+        left: 50%;
+        margin-left: -150px;
+    }
+    .section-4{
+        padding-top: 10px;
+        height: 1140px;
+    }
+    .section-4-h3 h3{
+        font-size: 1.5em;
+    }
+    .section-4-text p{
+        letter-spacing: 0;
+        font-size: 1em;
+        padding-left: 10px;
+    }
+    .section-4-1,.section-4-2,.section-4-3,.section-4-4,.section-4-5,.section-4-6{
+        position: relative;
+        width: 97%;
+    }
+    .section-4 h5{
+        padding-top: 0;
+    }
+    .kodriceps, .vitamin, .biancospino{
+        float: left;
+    }
+    .section-4-2 h6,.section-4-4 h6,.section-4-6 h6{
+        text-align: left;
+    }
+    .section-4-2{
+        left: 10px;
+        top: -20px;
+    }
+    .section-4-3{
+        top: -40px;
+    }
+    .section-4-4{
+        top: -60px;
+        left: 10px;
+    }
+    .section-4-5{
+        top: -80px;
+    }
+    .section-4-6{
+        top: -100px;
+        left: 10px;
+    }
+    .section-5,.section-9{
+        height: 255px;
+    }
+    .section-5-button,.section-9-button{
+        top: 63%;
+        margin-left: -160px;
+    }
+    .section-5-text-up,.section-9-text-up{
+        font-size: 1.875em;
+        letter-spacing: 1px;
+    }
+    .section-5-text-up dfn,.section-9-text-up dfn{
+        font-size: 1.125em;
+    }
+    .section-5-smalltext,.section-9-smalltext{
+        top: 50%;
+        left: 10px;
+        font-size: 76%;
+    }
+    .section-6{
+        height: 790px;
+    }
+    .section-6 .text-block{
+        left: 10px;
+    }
+    .text-block h5{
+        font-size: 1.875em;
+        letter-spacing: 3px;
+    }
+    .text-block p{
+        font-size: 1em;
+    }
+    .section-7{
+        display: block;
+        height: 660px;
+    }
+    .section-7 .text-block-2{
+        margin-right: 20px;
+    }
+    img.doctor{
+        height: 10%;
+        margin-top: 10px;
+    }
+    .text-block-2 h4{
+        font-size: 1.375em;
+        margin-top: -70px;
+        margin-left: 75px;
+    }
+    .text-block-2 span{
+        font-size: 0.75em;
+    }
+    .text-block-2 p{
+        letter-spacing: 0;
+        padding-top: 20px;
+    }
+    .text-block-3 h5{
+        font-size: 1.5em;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    .text-block-3 p{
+        line-height: 1;
+        width: 96%;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+    .comments h3{
+        font-size: 1.625em;
+        margin-left: 10px;
+        letter-spacing: 2px;
+        padding-top: 15px;
+    }
+    .comments p{
+        font-size: 0.625em;
+        margin-left: 10px;
+    }
+    .client1,.client2,.client3{
+        width: 20%;
+        height: 20%;
+    }
+    .comment-1,.comment-2,.comment-3{
+        margin-left: 5px;
+        display: block;
+    }
+    .comment-1 p,.comment-2 p,.comment-3 p{
+        font-size: 0.7em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .comment-1 h5,.comment-2 h5,.comment-3 h5{
+        font-size: 0.7em;
+        left: 75px;
+        margin: 0;
+        top: -65px;
+        position: relative;
+    }
+    .comment-1 h5{
+        left: 50%;
+        margin-left: -90px;
+        width: 63%;
+    }
+     .comment-2 h5{
+        left: 50%;
+        margin-left: -90px;
+        width: 63%;
+    }
+     .comment-3 h5{
+        left: 50%;
+        width: 63%;
+        margin-left: -90px;
+    }
+
+    .section-11-text-up{
+        left: 5%;
+        top: -2%;
+        z-index: 1;
+    }
+    .section-11-text-up h4{
+        font-size: 1.375em;
+        z-index: 1;
+    }
+    .section-11-text-up h3{
+        font-size: 2.125em;
+        margin: 0;
+        z-index: 1;
+    }
+    .section-11-text-left h2{
+        font-size: 1em;
+        margin: 0;
+        letter-spacing: 3px;
+        z-index: 1;
+    }
+    .section-11-text-left{
+        top: 90px;
+        margin: 0;
+        left: 15px;
+        z-index: 1;
+    }
+    .section-11-text-left h5{
+        margin: 0;
+        font-size: 1.0625em;
+        letter-spacing: 2px;
+        z-index: 1;
+    }
+    .section-11 small{
+        font-size: 60%;
+        z-index: 1;
+        letter-spacing: 0;
+    }
+    .section-11-text-left h6{
+        font-size: 0.875em;
+        margin: 0;
+        letter-spacing: 2px;
+        z-index: 1;
+    }
+    .section-11-contact{
+        left: 50%;
+        margin-left: -90px;
+    }
+    #contactform{
+        top: 40px;
+        left: 0;
+        z-index: 1;
+    }
+    .darkrectangle{
+        display: none;
+    }
+    .field1 label,.field2 label,.field3 label{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .field1 input,.field2 input,.field3 input{
+        border-width: 2px;
+        font-size: 18px;
+        border-radius: 5px;
+    }
+    .field3{
+        margin-left: -54px;
+    }
+    .field2{
+        margin-left: -35px;
+    }
+    .field1{
+        margin-left: -104px;
+    }
+    .section-11{
+        height: 650px;
+    }
+    .section-11-button{
+        top: 71%;
+        margin-left: 0;
+        left: 50%;
+        margin-left: -160px;
+        z-index: 1;
+    }
+    .section-11-button a img{
+        width: 100%;
+    }
+    .copyright{
+        box-shadow: 0 -40px 0 540px rgba(0, 0, 0, .3);
+        top: 578px;
+    }
+    .copyright h5{
+        font-size: 1em;
+        margin-top: 10px;
+        margin-bottom: 42px;  
+    }
+    .privacy{
+        left: 50%;
+        margin-left: -112px;
+    }
+    .section-11-contact p{
+        display: none;
+    }
+}
+    
+

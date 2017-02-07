@@ -58,6 +58,10 @@ Layout Styles
     padding-left: 15px;
     padding-right: 15px;
 }
+.horizontal_line{
+    min-height: 1px;
+    background: #fff;
+}
 /* Media Query excludes extra small devices and includes small and above */
 @media (min-width: 48em) {[class*='col-'] {
     float: left;
@@ -112,4 +116,7 @@ Theme Styles
 }
 .background-tertiary {
   background: #8DC63F; /*Green*/
+}
+.background-quaternary {
+    background: #ca772d;
 }

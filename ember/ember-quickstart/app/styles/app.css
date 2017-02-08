@@ -10,7 +10,7 @@ h1{
     justify-content: space-around;
     background-color: #ccbbaa;
     border: 1px solid brown;
-    box-shadow: 0 10px 15px rgba(152, 12, 255, 0.5)
+    box-shadow: 0 10px 15px 0 rgba(152, 12, 255, 0.5)
 }
 .btn a{
     color: brown;
@@ -19,8 +19,12 @@ h1{
     text-transform: uppercase;
     font-weight: 700;
     padding: 4px 10px 4px 10px;
-    background-color: azure;
+    background-color: khaki;
     border-radius: 12px;
+}
+.btn a:hover{
+        box-shadow: 0 2px 2px 2px rgba(52, 52, 55, 0.5)
+
 }
 h2, li, ul, ol{
     text-align: center;

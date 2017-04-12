@@ -1,0 +1,3521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ALL TASKS</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--стили сетки-->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--иконки-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--стили-->
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+<!--расположены логотип, имя сотрудника, совершившего вход и кнопка с переходом на страницу со всеми задачами-->
+			<header>
+				<div class="head-logo">
+					<div class="col-md-4 col-sm-4"> 
+						<!--logo-->
+						<h1 class="masters">Masters-bet</h1>
+					</div>
+					<!--employee-->
+					<div class="col-md-4 col-sm-4 head lead-name">
+						<h4>Вы вошли как Александр Станиславов</h4>
+					</div>
+					<!--main page link (button)-->
+					<div class="col-md-4 col-sm-4 head">
+						<a href="index.html" class="btn btn-default" role="button">Главная</a>
+					</div>
+				</div>
+			</header>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 all-tasks-title">
+				<h3 class="center-text">Все задачи с разбивкой по департаментам</h3>
+			</div>
+		</div>
+		<!-- financial department start -->
+		<div class="row">
+			<div class="taskname" id="inbox-fin">
+				<h2>Финансовый отдел</h2>
+				<h3>Входящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>21.03.2017</td>
+					<td>29.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstInFin">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>22.03.2017</td>
+					<td>30.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondInFin">В работе</a></td>
+				</tr>
+			</table>
+			<div class="taskname" id="outbox-fin">
+				<h3>Исходящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>19.03.2017</td>
+					<td>21.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstOutFin">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>20.03.2017</td>
+					<td>27.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondOutFin">В работе</a></td>
+				</tr>
+			</table>
+		</div>
+		<!-- financial department end -->
+		<!-- --------------------------------------------------------------- -->
+		<!-- bookmakers department start -->
+		<div class="row">
+			<div class="taskname" id="inbox-book">
+				<h2>Букмекерский отдел</h2>
+				<h3>Входящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>21.03.2017</td>
+					<td>29.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstInBook">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>22.03.2017</td>
+					<td>30.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondInBook">В работе</a></td>
+				</tr>
+			</table>
+			<div class="taskname" id="outbox-book">
+				<h3>Исходящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>19.03.2017</td>
+					<td>21.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstOutBook">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>20.03.2017</td>
+					<td>27.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondOutBook">В работе</a></td>
+				</tr>
+			</table>
+		</div>
+		<!-- bookmakers department end -->
+		<!-- ------------------------------------------------------------------ -->
+		<!-- accountant department start -->
+		<div class="row">
+			<div class="taskname" id="inbox-acc">
+				<h2>Бухгалтерский отдел</h2>
+				<h3>Входящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>21.03.2017</td>
+					<td>29.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstInAcc">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>22.03.2017</td>
+					<td>30.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondInAcc">В работе</a></td>
+				</tr>
+			</table>
+			<div class="taskname" id="outbox-acc">
+				<h3>Исходящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>19.03.2017</td>
+					<td>21.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstOutAcc">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>20.03.2017</td>
+					<td>27.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondOutAcc">В работе</a></td>
+				</tr>
+			</table>
+		</div>
+		<!-- accountant department end -->
+		<!-- -------------------------------------------------------------- -->
+		<!-- administration department start -->
+		<div class="row">
+			<div class="taskname" id="inbox-adm">
+				<h2>Администрация</h2>
+				<h3>Входящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>21.03.2017</td>
+					<td>29.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstInAdm">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>22.03.2017</td>
+					<td>30.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondInAdm">В работе</a></td>
+				</tr>
+			</table>
+			<div class="taskname" id="outbox-adm">
+				<h3>Исходящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>19.03.2017</td>
+					<td>21.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstOutAdm">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>20.03.2017</td>
+					<td>27.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondOutAdm">В работе</a></td>
+				</tr>
+			</table>
+		</div>
+		<!-- administration department end -->
+		<!-- --------------------------------------------------------------- -->
+		<!-- marketing department start -->
+		<div class="row">
+			<div class="taskname" id="inbox-mark">
+				<h2>Маркетинговый отдел</h2>
+				<h3>Входящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>21.03.2017</td>
+					<td>29.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstInMark">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>22.03.2017</td>
+					<td>30.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondInMark">В работе</a></td>
+				</tr>
+			</table>
+			<div class="taskname" id="outbox-mark">
+				<h3>Исходящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>19.03.2017</td>
+					<td>21.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstOutMark">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>20.03.2017</td>
+					<td>27.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondOutMark">В работе</a></td>
+				</tr>
+			</table>
+		</div>
+		<!-- marketing department end -->
+		<!-- ---------------------------------------------------------------- -->
+		<!-- support department start -->
+		<div class="row">
+			<div class="taskname" id="inbox-supp">
+				<h2>Отдел поддержки</h2>
+				<h3>Входящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>21.03.2017</td>
+					<td>29.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstInSupp">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>22.03.2017</td>
+					<td>30.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondInSupp">В работе</a></td>
+				</tr>
+			</table>
+			<div class="taskname" id="outbox-supp">
+				<h3>Исходящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>19.03.2017</td>
+					<td>21.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstOutSupp">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>20.03.2017</td>
+					<td>27.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondOutSupp">В работе</a></td>
+				</tr>
+			</table>
+		</div>
+		<!-- support department end -->
+		<!-- --------------------------------------------------------------- -->
+		<!-- technical department start -->
+		<div class="row">
+			<div class="taskname" id="inbox-tech">
+				<h2>Технический отдел</h2>
+				<h3>Входящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>21.03.2017</td>
+					<td>29.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstInTech">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>22.03.2017</td>
+					<td>30.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondInTech">В работе</a></td>
+				</tr>
+			</table>
+			<div class="taskname" id="outbox-tech">
+				<h3>Исходящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>19.03.2017</td>
+					<td>21.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstOutTech">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>20.03.2017</td>
+					<td>27.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondOutTech">В работе</a></td>
+				</tr>
+			</table>
+		</div>
+		<!-- technical department end -->
+		<!-- ---------------------------------------------------------------- -->
+		<!-- IT department start -->
+		<div class="row">
+			<div class="taskname" id="inbox-it">
+				<h2>ИТ отдел</h2>
+				<h3>Входящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>21.03.2017</td>
+					<td>29.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstInIt">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>22.03.2017</td>
+					<td>30.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondInIt">В работе</a></td>
+				</tr>
+			</table>
+			<div class="taskname" id="outbox-it">
+				<h3>Исходящие заявки</h3>
+			</div>
+			<table class="table-1 display responsive-table">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Тема заявки</th>
+						<th>Дата создания</th>
+						<th>Дата завершения</th>
+						<th>Статус</th>
+					</tr>
+				</thead>
+				<tr>
+					<th>1</th>
+					<td>Тема номер 1</td>
+					<td>19.03.2017</td>
+					<td>21.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-firstOutIt">В работе</a></td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>Тема номер 2</td>
+					<td>20.03.2017</td>
+					<td>27.03.2017</td>
+					<td><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg-secondOutIt">В работе</a></td>
+				</tr>
+			</table>
+		</div>
+		<!-- IT department end -->
+		<!-- ----------------------------------------------------------------- -->
+		<!-- are you here? so, let's go further
+		there you can see a lot of modals -->
+		<!-- ----------------------------------------------------------------- -->
+		<!-- financial department inbox modal first -->
+<!-- Put this script tag to the <head> of your page -->
+		<!-- financial department inbox modal first -->
+
+		<!--task # 1.1 fin -->
+	<div class="modal fade bs-example-modal-lg-firstInFin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 1.2 fin -->
+	<div class="modal fade bs-example-modal-lg-secondInFin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 1.3 fin -->
+	<div class="modal fade bs-example-modal-lg-firstOutFin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 1.4 fin -->
+	<div class="modal fade bs-example-modal-lg-secondOutFin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 2.1 book -->
+	<div class="modal fade bs-example-modal-lg-firstInBook" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 2.2 book -->
+	<div class="modal fade bs-example-modal-lg-secondInBook" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 2.3 book -->
+	<div class="modal fade bs-example-modal-lg-firstOutBook" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 2.4 book -->
+	<div class="modal fade bs-example-modal-lg-secondOutBook" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 3.1 acc -->
+	<div class="modal fade bs-example-modal-lg-firstInAcc" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 3.2 acc -->
+	<div class="modal fade bs-example-modal-lg-secondInAcc" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 3.3 acc -->
+	<div class="modal fade bs-example-modal-lg-firstOutAcc" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 3.4 acc -->
+	<div class="modal fade bs-example-modal-lg-secondOutAcc" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 4.1 adm -->
+	<div class="modal fade bs-example-modal-lg-firstInAdm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 4.2 adm -->
+	<div class="modal fade bs-example-modal-lg-secondInAdm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 4.3 adm -->
+	<div class="modal fade bs-example-modal-lg-firstOutAdm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 4.4 adm -->
+	<div class="modal fade bs-example-modal-lg-secondOutAdm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 5.1 mark -->
+	<div class="modal fade bs-example-modal-lg-firstInMark" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 5.2 mark -->
+	<div class="modal fade bs-example-modal-lg-secondInMark" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 5.3 mark -->
+	<div class="modal fade bs-example-modal-lg-firstOutMark" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 5.4 mark -->
+	<div class="modal fade bs-example-modal-lg-secondOutMark" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 6.1 supp -->
+	<div class="modal fade bs-example-modal-lg-firstInSupp" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 6.2 supp -->
+	<div class="modal fade bs-example-modal-lg-secondInSupp" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 6.3 supp -->
+	<div class="modal fade bs-example-modal-lg-firstOutSupp" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 6.4 supp -->
+	<div class="modal fade bs-example-modal-lg-secondOutSupp" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 7.1 tech -->
+	<div class="modal fade bs-example-modal-lg-firstInTech" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 7.2 tech -->
+	<div class="modal fade bs-example-modal-lg-secondInTech" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 7.3 tech -->
+	<div class="modal fade bs-example-modal-lg-firstOutTech" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 7.4 tech -->
+	<div class="modal fade bs-example-modal-lg-secondOutTech" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 8.1 it -->
+	<div class="modal fade bs-example-modal-lg-firstInIt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 8.2 it -->
+	<div class="modal fade bs-example-modal-lg-secondInIt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 8.3 it -->
+	<div class="modal fade bs-example-modal-lg-firstOutIt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 1</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+							тут будет распологаться чат 
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ---- -->
+	<!--task # 8.4 mark -->
+	<div class="modal fade bs-example-modal-lg-secondOutIt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="gridSystemModalLabel">Тема номер 2</h4>  <!--сюда переносится тема заявки-->
+				</div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-8 task-description">
+							<p>Подтвердите правильность вывода денежных средств для ID 2568931</p> <!--переносится описание заявки-->
+						</div>
+						<div class="col-md-4 check-box-body">
+							<h5>Подключить департаменты</h5>
+							<div class="checkbox">
+								<label>
+						  			<input type="checkbox"> Финансовый
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Букмекерский
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Бухгалтерия
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Администрация
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Маркетинг
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Технический
+					  			</label>
+								  <label>
+						  			<input type="checkbox"> Поддержка
+					  			</label>
+							</div>
+							<div class="col-md-2 col-md-offset-6 dep-set">
+								<button type="submit" class="btn btn-info">Подключить</button><!--кнопка подключающая к заявке необходимые департаменты-->
+							</div>
+						</div>
+						<div class="col-md-2 col-md-offset-3 edit-button">
+							<a href="edit_task.html"><button type="submit" class="btn btn-info">Править</button></a><!--переход на страницу редактирования заявки-->
+						</div>
+					</div>
+					<div class="row"> <!--чат-->
+						<div class="col-md-8">
+
+							<!-- тут будет распологаться чат ----------- -->
+							<div id="page-wrap">
+							<h5>Чат поле для общения</h5>
+							<p id="name-area"></p>
+							<div id="chat-wrap"><div id="chat-area"></div>
+							</div>
+							<form id="send-message-area">
+							    <p>Сообщение:</p>
+							    <textarea id="sendie" maxlength='100'></textarea>
+							</form>
+							</div>
+							<!-- конец чата ------------- -->
+
+						</div>
+					</div>
+					<!--таблица с отображением хода выполнения задачи-->
+					<div class="row">
+						<div class="task-status">
+							<h4>Ход выполнения задачи</h4>
+						</div>
+						<table class="table-1 display responsive-table">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>Когда</th>
+									<th>Ответственный</th>
+									<th>Действие</th>
+									<th>Коментарий</th>
+								</tr>
+							</thead>
+							<tr>
+								<th>1</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Яхнев Андрей</a></td>
+								<td>Проверка осуществлена</td>
+								<td>Все данные высланы на почту и продублированы во вложении.</td>
+							</tr>
+							<tr>
+								<th>2</th>
+								<td class="department">12.03.2017</td>
+								<td><a href="#">Степина Марина</a></td>
+								<td>Подтверждаю</td>
+								<td>Все проведено по бухгалтерии.</td>
+							</tr>
+						</table>
+					</div>
+					<div class="row">
+						<div class="col-md-12 close-task-button">
+							<button type="button" class="btn btn-warning" data-dismiss="modal">Закрыть</button> <!--закрывает окно. НЕ ЗАЯВКУ-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- end all modals -->
+    <script type="text/javascript">
+    	// default name is 'Guest'
+    	if (!name || name === ' ') {
+    	   name = "Guest";	
+    	}
+    	// strip tags
+    	name = name.replace(/(<([^>]+)>)/ig,"");
+    	// display name on page
+    	$("#name-area").html("You are: <span>" + name + "</span>");
+    	// kick off chat
+        var chat =  new Chat();
+    	$(function() {
+    		 chat.getState(); 
+    		 // watch textarea for key presses
+             $("#sendie").keydown(function(event) {  
+                 var key = event.which;  
+                 //all keys including return.  
+                 if (key >= 33) {
+                     var maxLength = $(this).attr("maxlength");  
+                     var length = this.value.length;  
+                     // don't allow new content if length is maxed out
+                     if (length >= maxLength) {  
+                         event.preventDefault();  
+                     }  
+                  }  
+    		 // watch textarea for release of key press
+    		 $('#sendie').keyup(function(e) {	
+    			  if (e.keyCode == 13) { 
+                    var text = $(this).val();
+    				var maxLength = $(this).attr("maxlength");  
+                    var length = text.length; 
+                    // send 
+                    if (length <= maxLength + 1) { 
+    			        chat.send(text, name);	
+    			        $(this).val("");
+                    } else {
+    					$(this).val(text.substring(0, maxLength));
+    				}	
+    			  }
+             });
+    	});
+    </script>
+
+<!-- закрывающий тег контейнера -->
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--сетка-->
+<script src="js/common.js"></script> 
+<script src="js/chat.js"></script>
+<!--подключены скрипты для тултипов-->
+</body>
+</html>

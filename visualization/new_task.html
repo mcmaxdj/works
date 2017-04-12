@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NEW TASK</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <!--отображены логотип и кнопка с переходом на страницу создания заявки любому из департаментов-->
+            <header>
+                <div class="col-md-4">
+                    <h1 class="masters">Masters-bet</h1>
+                </div>
+                <div class="col-md-4 col-md-offset-4 head">
+                    <a href="index.html" class="btn btn-default" role="button">Главная</a><!--возврат на главную-->
+                </div>
+            </header>
+        </div>
+        <div class="row">
+            <h3 class="add-task-h3">Создание новой заявки</h3>
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 start-task">
+                <div class="col-md-6 col-sm-6 new-task-form">
+                    <form action="">
+                        <div class="form-group has-success">
+                            <label class="control-label" for="inputSuccess1">Тема Заявки</label>
+                            <!-- поле для ввода темы -->
+                            <input type="text" class="form-control" placeholder="Введите тему заявки" id="inputSuccess1" aria-describedby="inputSuccess1"></div>
+                            <!-- вводится описание -->
+                            <textarea class="form-control" rows="5" placeholder="Введите описание заявки"></textarea>
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 check-box-body">
+                <!-- выбор департаментов, если в этом есть необходимость -->
+                    <h5>Подключить департаменты</h5>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Финансовый
+                        </label>
+                        <label>
+                            <input type="checkbox"> Букмекерский
+                        </label>
+                        <label>
+                            <input type="checkbox"> Бухгалтерия
+                        </label>
+                        <label>
+                            <input type="checkbox"> Администрация
+                        </label>
+                        <label>
+                            <input type="checkbox"> Маркетинговый
+                        </label>
+                        <label>
+                            <input type="checkbox"> Технический
+                        </label>
+                        <label>
+                            <input type="checkbox"> Поддержка пользователей
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 next-step">
+                <div class="col-md-6 col-sm-6 deadline">
+                    <h5>Выберите сотрудника из списка</h5>
+                    <!-- выбор ответственного сотрудника. изначально, при создании заявки на конкретный департамент, из этого списка можно выбрать только руководителя отдела. а руководитель, перенаправляет ее на одного из своих сотрудников -->
+                    <form>
+                        <select>
+                            <option active>Выберите сотрудника</option>
+                            <option value="Собецкий Максим">Собецкий Максим</option>
+                            <option value="Хлебников Сергей">Хлебников Сергей</option>
+                            <option value="Ткаченко Анатолий">Ткаченко Анатолий</option>
+                            <option value="Шевердин Александр">Шевердин Александр</option>
+                        </select>
+                        <!--<input type="submit" class="btn btn-info" value="Назначить">-->
+                    </form>
+                    <div class="calendar">
+                        <label for="exampleInputDate">Выберите дату</label>
+                        <!-- выбор дедлайна -->
+                        <form>
+                            <input type="datetime-local" id="exampleInputDate" name="created">
+                            <!--<input type="submit" class="btn btn-info" value="Установить">-->
+                        </form>
+                    </div>
+                    <div class="priority">
+                        <h5>Выбор приоритета задачи</h5>
+                        <!-- приоритет задачи -->
+                    <form>
+                        <select>
+                            <option active>Выберите приоритет</option>
+                            <option value="Высокий">Высокий</option>
+                            <option value="Средний">Средний</option>
+                            <option value="Низкий">Низкий</option>
+                        </select>
+                    </form>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 add-file">
+                <!-- возможность при необходимости вложить в заявку файл. размер дефолтный -->
+                    <label for="exampleInputFile">Прикрепить файл</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Размер файла не должен превышать 3Мб</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 create-task">
+            <!-- кнопка, которая запустит заявку в работу -->
+                <button type="button" class="btn btn-success">Создать заявку</button>
+            </div>
+            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 clear-task">
+            </div>
+        </div>
+      <div class="row">
+			<footer>
+<!--оповещение о том, что необходимо ознакомиться с правилами перед тем как начинать работу с заявками. со ссылкой на правила-->
+				<blockquote>
+  					<p>Перед тем как оставлять заявку на отделы, передавать ее в работу, изменять статус заявки, необходимо ознакомиться с <mark><a href="rules.html" target="_blank">правилами.</a></mark></p>
+				</blockquote>
+			</footer>
+		</div>
+
+
+
+    </div><!--close container tag-->
+
+<!--jquery, bootstrap, main-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/common.js"></script>
+</body>
+
+</html>

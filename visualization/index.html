@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TEAM-LEAD-PAGE</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--стили сетки-->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--иконки-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--стили-->
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+<!--расположены логотип, имя сотрудника, совершившего вход и кнопка с переходом на страницу со всеми задачами-->
+			<header>
+				<div class="head-logo">
+					<div class="col-md-4"> 
+						<!--логотип-->
+						<h1 class="masters">Masters-bet</h1>
+					</div>
+					<!--отображается Имя Фамилия сотрудника, который вошел в систему-->
+					<div class="col-md-4 head lead-name">
+						<h4>Вы вошли как Александр Станиславов</h4>
+					</div>
+					<!--кнопка с линком на страницу с примером отображения задач. 
+					будет привязана страница со всеми заявками с разбивком по департаментам-->
+					<div class="col-md-4 head">
+						<a href="all_tasks.html" class="btn btn-default" role="button">Все Задачи</a>
+					</div>
+				</div>
+			</header>
+		</div>
+		<!--в этом блоке распологаются все 8 департаментов-->
+		<div class="row">
+			<div class="departments-1">
+				<div class="col-md-3 col-sm-6 column">
+				<div class="dep-block">
+<!--значек доллара/ссылка с переходом на страницу всех взаимосвязей финансового отдела с остальными-->
+					<a href="finance.html"><i class="fa fa-usd fa-3x" aria-hidden="true"></i></a>
+					<!--ссылка с переход на создание новой заявки департаменту-->
+					<a class="add-task" href="new_task.html" data-toggle="tooltip" data-placement="top" title="Создать"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+					<h6 class="dep-name">Finance</h6>
+<!--Две иконки с отображением входящих на фин деп и исходящих из него заявок (всего). при нажатии ничего не происходит (кнопки носят информационный характер)-->
+					<div class="input-group">
+	  					<button class="btn inbox disabled" data-toggle="tooltip" data-placement="left" title="Входящие"><i class="fa fa-arrow-down" aria-hidden="true"></i><span class="badge">3</span></button>
+	  					<button class="btn out disabled" data-toggle="tooltip" data-placement="right" title="Исходящие"><span class="badge">7</span><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  					</div>		
+  					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 column">
+				<div class="dep-block">
+<!--значек мяч/ссылка с переходом на страницу всех взаимосвязей букмекерского отдела с другими-->
+					<a href="bookmakers.html"><i class="fa fa-futbol-o fa-3x" aria-hidden="true"></i></a>
+					<!--ссылка с переходом на создание новой заявки департаменту-->
+					<a class="add-task" href="new_task.html" data-toggle="tooltip" data-placement="top" title="Создать"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+					<h6 class="dep-name">Bookmakers</h6>
+<!--Две иконки с отображением всех входящих и исходящих заявок. при нажатии ничего не происходит (информационный характер)-->
+					<div class="input-group">
+	  					<button class="btn inbox disabled" data-toggle="tooltip" data-placement="left" title="Входящие"><i class="fa fa-arrow-down" aria-hidden="true"></i><span class="badge">0</span></button>
+	  					<button class="btn out disabled" data-toggle="tooltip" data-placement="right" title="Исходящие"><span class="badge">9</span><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  					</div>
+  					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 column">
+				<div class="dep-block">
+<!--значек калькулятор/ссылка с переходом на страницу всех взаимосвязей бухгалтерского отдела-->
+					<a href="accountant.html"><i class="fa fa-calculator fa-3x" aria-hidden="true"></i></a>
+					<!--ссылка с переходом на создание новой заявки департаменту-->
+					<a class="add-task" href="new_task.html" data-toggle="tooltip" data-placement="top" title="Создать"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+					<h6 class="dep-name">Accountant</h6>
+<!--Две иконки с отображением всех входящих и исходящих заявок. при нажатии ничего не происходит (информационные)-->
+					<div class="input-group">
+	  					<button class="btn inbox disabled" data-toggle="tooltip" data-placement="left" title="Входящие"><i class="fa fa-arrow-down" aria-hidden="true"></i><span class="badge">6</span></button>
+	  					<button class="btn out disabled" data-toggle="tooltip" data-placement="right" title="Исходящие"><span class="badge">3</span><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  					</div>
+  					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 column">
+				<div class="dep-block">
+<!--значек здание/ссылка с переходом на страницу всех взаимосвязей админ отдела-->
+					<a href="administration.html"><i class="fa fa-university fa-3x" aria-hidden="true"></i></a>
+					<!--ссылка с переходом на создание новой заявки департаменту-->
+					<a class="add-task" href="new_task.html" data-toggle="tooltip" data-placement="top" title="Создать"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+					<h6 class="dep-name">Administration</h6>
+<!--Две иконки с отображением входящих и исходящих заявок. у кнопок информационный характер-->
+					<div class="input-group">
+	  					<button class="btn inbox disabled" data-toggle="tooltip" data-placement="left" title="Входящие"><i class="fa fa-arrow-down" aria-hidden="true"></i><span class="badge">12</span></button>
+	  					<button class="btn out disabled" data-toggle="tooltip" data-placement="right" title="Исходящие"><span class="badge">4</span><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  					</div>
+  					</div>
+				</div>
+			</div>
+			<div class="departments-2">
+				<div class="col-md-3 col-sm-6 column">
+				<div class="dep-block">
+<!--значек стрелка/ссылка с переходом на страницу всех взаимосвязей маркетингового отдела-->
+					<a href="marketing.html"><i class="fa fa-line-chart fa-3x" aria-hidden="true"></i></a>
+					<!--ссылка с переход на создание новой заявки департаменту-->
+					<a class="add-task" href="new_task.html" data-toggle="tooltip" data-placement="top" title="Создать"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+					<h6 class="dep-name">Marketing</h6>
+<!--Две иконки с отображением всех входящих и исходящих заявок. у кнопок информационный характер-->
+					<div class="input-group">
+	  					<button class="btn inbox disabled" data-toggle="tooltip" data-placement="left" title="Входящие"><i class="fa fa-arrow-down" aria-hidden="true"></i><span class="badge">3</span></button>
+	  					<button class="btn out disabled" data-toggle="tooltip" data-placement="right" title="Исходящие"><span class="badge">3</span><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  					</div>
+  					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 column">
+				<div class="dep-block">
+<!--значек наушники/ссылка с переходом на страницу всех взаимосвязей отдела поддержки пользователей-->
+					<a href="support.html"><i class="fa fa-headphones fa-3x" aria-hidden="true"></i></a>
+					<!--ссылка с переходом на создание новой заявки департаменту-->
+					<a class="add-task" href="new_task.html" data-toggle="tooltip" data-placement="top" title="Создать"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+					<h6 class="dep-name">Support</h6>
+<!--Две иконки с отображением входящих и исходящих заявок. информационный характер-->
+					<div class="input-group">
+	  					<button class="btn inbox disabled" data-toggle="tooltip" data-placement="left" title="Входящие"><i class="fa fa-arrow-down" aria-hidden="true"></i><span class="badge">3</span></button>
+	  					<button class="btn out disabled" data-toggle="tooltip" data-placement="right" title="Исходящие"><span class="badge">3</span><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  					</div>
+  					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 column">
+				<div class="dep-block">
+<!--значек шестерни/ссылка с переходом на страницу всех взаимосвязей тех отдела-->
+					<a href="technical.html"><i class="fa fa-cogs fa-3x" aria-hidden="true"></i></a>
+					<!--ссылка с переходом на создание новой заявки департаменту-->
+					<a class="add-task" href="new_task.html" data-toggle="tooltip" data-placement="top" title="Создать"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+					<h6 class="dep-name">Technical</h6>
+<!--Две иконки с отображением входящих и исходящих заявок. информационный характер-->
+					<div class="input-group">
+	  					<button class="btn inbox disabled" data-toggle="tooltip" data-placement="left" title="Входящие"><i class="fa fa-arrow-down" aria-hidden="true"></i><span class="badge">3</span></button>
+	  					<button class="btn out disabled" data-toggle="tooltip" data-placement="right" title="Исходящие"><span class="badge">3</span><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  					</div>
+  					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 column">
+				<div class="dep-block">
+<!--значек скобы/ссылка с переходом на страницу всех взаимосвязей ИТ отдела-->
+					<a href="it.html"><i class="fa fa-code fa-3x" aria-hidden="true"></i></a>
+					<!--ссылка с переход на создание новой заявки департаменту-->
+					<a class="add-task" href="new_task.html" data-toggle="tooltip" data-placement="top" title="Создать"><i class="fa fa-plus fa-2x" aria-hidden="true"></i></a>
+					<h6 class="dep-name">IT</h6>
+<!--Две иконки с отображением всех входящих и исходящих заявок. информационный характер-->
+					<div class="input-group">
+	  					<button class="btn inbox disabled" data-toggle="tooltip" data-placement="left" title="Входящие"><i class="fa fa-arrow-down" aria-hidden="true"></i><span class="badge">3</span></button>
+	  					<button class="btn out disabled" data-toggle="tooltip" data-placement="right" title="Исходящие"><span class="badge">3</span><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+  					</div>
+  					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<footer>
+<!--оповещение о том, что необходимо ознакомиться с правилами перед тем как начинать работу с заявками. со ссылкой на правила-->
+				<blockquote>
+  					<p>Перед тем как оставлять заявку на отделы, передавать ее в работу, изменять статус заявки, необходимо ознакомиться с <mark><a href="rules.html">правилами.</a></mark></p>
+				</blockquote>
+			</footer>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--сетка-->
+<script src="js/common.js"></script> 
+<!--подключены скрипты для тултипов-->
+</body>
+</html>

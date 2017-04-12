@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EDIT-TASK</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<!--отображены логотип и кнопка с переходом на страницу создания заявки любому из департаментов-->
+			<header>
+				<div class="col-md-4">
+					<h1 class="masters">Masters-bet</h1>
+				</div>
+				<div class="col-md-4 col-md-offset-4 head">
+					<!--возврат на главную страницу-->
+					<a href="index.html" class="btn btn-default" role="button">Главная</a>
+				</div>
+			</header>
+		</div>
+        <div class="row">
+            <h4 class="add-task-h4">На данной странице возможно <mark>вносить изменения в задачу.</mark></h4>
+			<p class="add-task-p">Убедитесь, что в этом есть необходимость и поможет сотруднику выполнить задачу.</p>
+        </div>
+        <div class="row">
+			<h3 class="edit-task-h3">Редактирование / Изменение Заявки</h3>
+		</div>
+		<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 start-edit-task">
+				<form action="">
+					<label for="editTextAria" class="control-label">Комментарий</label>
+					<!--в поле вводится комментарий в случае привки заявки. комментарий потом отображается в поле комментарий в таблице отображающей ход заявки-->
+					<textarea class="form-control" rows="5" placeholder="Добавьте ваш комментарий к заявке"></textarea>
+					<h5>Изменение ответственного</h5>
+					<!--выбор сотрудника. при построении заявки, у сотрудника, который ее создает есть 
+					возможность в этом списке выбрать лишь начальника департамента. Когда начальник 
+					департамента открывает эту заявку, у него есть возможность выбора из списка своих 
+					сотрудников-->
+					<select>
+						<option active>Выберите сотрудника</option>
+						<option value="Собецкий Максим">Собецкий Максим</option>
+						<option value="Хлебников Сергей">Хлебников Сергей</option>
+						<option value="Ткаченко Анатолий">Ткаченко Анатолий</option>
+						<option value="Шевердин Александр">Шевердин Александр</option>
+					</select>
+					<!--выбор срока к которому задача должна быть выполнена-->
+					<div class="calendar">
+                        <label for="exampleInputDate">Изменение даты</label><br>
+						<input type="datetime-local" id="exampleInputDate" name="created">
+						<!--<input type="submit" class="btn btn-info" value="Установить">-->
+                    </div>
+					<h5>Изменение приоритета задачи</h5>
+					<!--список с выбором приоритета задачи-->
+					<select>
+						<option active>Выберите приоритет</option>
+						<option value="Высокий">Высокий</option>
+						<option value="Средний">Средний</option>
+						<option value="Низкий">Низкий</option>
+					</select>
+					<!--возможность прикрепить файл в случае необходимости. размер файла указал дефолтно.-->
+					<div class="add-file-edit-page">
+						<label for="exampleInputFile">Прикрепить файл</label>
+						<input type="file" id="exampleInputFile">
+						<p class="help-block">Размер файла не должен превышать 3Мб</p>
+						<!--кнопка должна применять все изменения заявки и обновлять информацию в таблице со статусом-->
+						<button type="button" class="btn btn-info">Применить</button>
+						<!--кнопка, использовать которую может лишь сотрудник, который изначально создавал заявку-->
+						<button type="button" class="btn btn-danger close-task-button">Закрыть заявку</button>
+					</div>
+				</form>
+		</div>
+	
+    
+    
+    </div> <!--container close tag-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+
+</html>

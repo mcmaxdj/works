@@ -1,0 +1,6 @@
+[0312/112329.318:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Stanper\Reports\Dump: Системе не удается найти указанный путь. (0x3)
+[0312/112329.382:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0312/112329.389:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Stanper\Reports\Dump: Системе не удается найти указанный путь. (0x3)
+[0312/112341.789:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Stanper\Reports\Dump: Системе не удается найти указанный путь. (0x3)
+[0312/112341.838:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0312/112341.846:ERROR:crash_report_database_win.cc(563)] CreateDirectory C:\Program Files (x86)\Stanper\Reports\Dump: Системе не удается найти указанный путь. (0x3)
